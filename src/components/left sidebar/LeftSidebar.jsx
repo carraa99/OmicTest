@@ -8,7 +8,8 @@ const LeftSidebar = () => {
           style={{
             color: "white",
             fontStyle: "bold",
-            margin: 15,
+                    margin: 15,
+                    marginBottom:5,
             padding: 20,
             paddingLeft: 15,
           }}
@@ -48,17 +49,23 @@ const LeftSidebar = () => {
           </div>
           <div style={{ color: "#B5BFC7" }}> 1_simple_examples</div>
         </div>
-        <div className="sidebarWrapper3" style={{ backgroundColor: "#2E3A46",padding:5,paddingLeft:0  }}>
-          <div className="bage1 bgClass" style={{ backgroundColor: "#8CA261"  }}>
+        <div
+          className="sidebarWrapper3"
+          style={{ backgroundColor: "#2E3A46", padding: 5, paddingLeft: 0 }}
+        >
+          <div className="bage1 bgClass" style={{ backgroundColor: "#8CA261" }}>
             SQL
           </div>
-          <div style={{ color: "#B5BFC7" }} >dataset_1</div>
+          <div style={{ color: "#B5BFC7" }}>dataset_1</div>
+          <div style={{ color: "#B5BFC7", fontSize: 20, marginTop: -7 }}>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...
+          </div>
         </div>
         <div className="sidebarWrapper2">
           <div className="bage1" style={{ backgroundColor: "#8CA261" }}>
             SQL
           </div>
-          <div style={{ color: "#B5BFC7" }}>dataset_2_with_ref</div>
+          <div style={{ color: "#B5BFC7" }}>dataset_2_with_ref </div>
         </div>
         <div className="list2">
           <div>

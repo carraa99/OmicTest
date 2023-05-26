@@ -18,7 +18,7 @@ const IconSideBar = () => {
   return (
     <div className="iconSidebar">
       <div className="icons">
-        <ImSpinner8 style={{ color: "white", marginBottom: 20 }} size={30} />
+        <ImSpinner8 style={{ color: "white", marginBottom: 20 }} size={25} />
         <PlayArrowIcon
           style={{
             color: "white",
@@ -26,25 +26,25 @@ const IconSideBar = () => {
                       marginBottom: 22,
             borderRadius:5
           }}
-          size={33}
+          size={30}
         />
         <hr style={{ color: "#484545", width: 22 }} />
         <AiFillAlipayCircle
           style={{ color: "#6C767E", marginBottom: 22 }}
-          size={30}
+          size={25}
         />
-        <FiSearch style={{ color: "#6C767E", marginBottom: 22 }} size={30} />
+        <FiSearch style={{ color: "#6C767E", marginBottom: 22 }} size={25} />
         <hr style={{ color: "#484545", width: 22 }} />
 
         <GiAbstract074
           style={{ color: "#6C767E", marginBottom: 22 }}
-          size={30}
+          size={25}
         />
-        <ImClock style={{ color: "#6C767E", marginBottom: 22 }} size={30} />
-        <CgNotes style={{ color: "#6C767E", marginBottom: 22 }} size={30} />
+        <ImClock style={{ color: "#6C767E", marginBottom: 22 }} size={25} />
+        <CgNotes style={{ color: "#6C767E", marginBottom: 22 }} size={25} />
         <AiOutlineContainer
           style={{ color: "#6C767E", marginBottom: 22 }}
-          size={35}
+          size={25}
         />
         <hr style={{ color: "#484545", width: 20 }} />
         <BiChevronRight
