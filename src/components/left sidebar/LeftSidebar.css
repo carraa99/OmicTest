@@ -1,0 +1,50 @@
+.leftSidebar {
+    width: 300px;
+    height: 104vh;
+    background-color: rgb(61,75,86);
+    margin-top:-30px;
+    position: absolute;
+    z-index: -1;
+    left:80px;
+}
+.sidebarWrapper {
+    margin-left:20px;
+    display: flex;
+    gap:10px;
+    margin-bottom: 15px;
+}
+.bage1 {
+    height: 25px;
+    width:60px;
+    color:#fff;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(81,141,153);
+}
+.lists {
+    margin-left: 20px;
+    display: flex;
+    gap:8px;
+}
+.list2 {
+    margin-left: 45px;
+    display: flex;
+    gap:8px;
+}
+.sidebarWrapper2 {
+    margin-left:75px;
+    margin-top: 7px;
+    display: flex;
+    gap:10px;
+    margin-bottom: 15px;
+}
+.sidebarWrapper3 {
+    /* margin-left:75px; */
+    margin-top: 7px;
+    display: flex;
+    gap:10px;
+    margin-bottom: 15px;
+}
+.bgClass {
+    margin-left:75px;
+}
