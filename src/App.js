@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import NavigationBar from './components/navigation/NavigationBar';
 import IconSidebar from './components/Icon Sidebar/IconSidebar';
 import LeftSidebar from './components/left sidebar/LeftSidebar';
+import Editor from './components/editor/Editor';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <NavigationBar />
       <IconSidebar />
       <LeftSidebar />
+      <Editor />
     </div>
   );
 }
