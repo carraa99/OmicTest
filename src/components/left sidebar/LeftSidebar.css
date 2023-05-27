@@ -1,6 +1,6 @@
 .leftSidebar {
     width: 300px;
-    height: 98.6vh;
+    height: 102.3vh;
     background-color: rgb(61,75,86);
     margin-top:-30px;
     position: absolute;
@@ -47,4 +47,32 @@
 }
 .bgClass {
     margin-left:75px;
+}
+.vl {
+  border-left: 0.2px solid rgb(86, 90, 93, .8) ;
+  height: 340px;
+  position: absolute;
+  top:36%;
+  left:10%;
+}
+.v2 {
+  border-left: 0.2px solid rgb(86, 90, 93, .8) ;
+  height: 70px;
+  position: absolute;
+  top:41.5%;
+  left:18%;
+}
+.v3 {
+  border-left: 0.2px solid rgb(86, 90, 93, .8) ;
+  height: 60px;
+  position: absolute;
+  top:59%;
+  left:18%;
+}
+.v4 {
+  border-left: 0.2px solid rgb(86, 90, 93, .8) ;
+  height: 65px;
+  position: absolute;
+  top:75%;
+  left:18%;
 }

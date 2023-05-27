@@ -4,6 +4,7 @@ import NavigationBar from './components/navigation/NavigationBar';
 import IconSidebar from './components/Icon Sidebar/IconSidebar';
 import LeftSidebar from './components/left sidebar/LeftSidebar';
 import Editor from './components/editor/Editor';
+import Table from './components/table/Table';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <IconSidebar />
       <LeftSidebar />
       <Editor />
+      <Table />
     </div>
   );
 }

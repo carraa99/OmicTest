@@ -1,11 +1,12 @@
 .iconSidebar {
-    height: auto;
+    height: 108vh;
     width:80px;
     background-color: rgb(32,41,52);
     position: absolute;
     top:0;
     left:0;
-    border-top-left-radius: 50px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
     
 }
 .icons {

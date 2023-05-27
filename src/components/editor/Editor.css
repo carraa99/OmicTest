@@ -2,7 +2,7 @@
     position: absolute;
     top:70px;
     left:380px;
-    height: 500px;
+    height: 400px;
     width: 750px;
     background-color: #2E3A46;
     border-right: 0.2px solid rgb(86, 90, 93, .8);
@@ -40,11 +40,18 @@
     position: absolute;
     top:70px;
     left:1131px;
-    height: 500px;
+    height: 400px;
     width: 387.5px;
     overflow: hidden;
     background-color: #2E3A46;
 }
 .tab2 {
     border-bottom: 0.2px solid rgb(86, 90, 93, .5);
+}
+.rightSidebar2 {
+    /* margin-left:75px; */
+    /* margin-top: 7px; */
+    display: flex;
+    gap:10px;
+    margin-bottom: 15px;
 }
