@@ -4,7 +4,32 @@ import Button from "@material-ui/core/Button";
 import Paper from "@material-ui/core/Paper";
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
+import { makeStyles } from "@material-ui/core/styles";
+import List from "@material-ui/core/List";
+import ListItem from "@material-ui/core/ListItem";
+import ListItemText from "@material-ui/core/ListItemText";
+import Divider from "@material-ui/core/Divider";
+import { FaRegQuestionCircle } from "react-icons/fa";
+import { BsThreeDots} from 'react-icons/bs'
+import { TbSquareRoundedNumber3Filled } from 'react-icons/tb'
+import {MdExpandMore} from 'react-icons/md'
+import {TbNumber3} from 'react-icons/tb'
+const useStyles = makeStyles((theme) => ({
+  root: {
+    // width: "35vw",
+    maxWidth: 360,
+    backgroundColor: "#2E3A46",
+    top: 56,
+    paddingRight: -10,
+    marginRight: -10,
+  },
+  divider: {
+    borderBottom: "0.2px solid rgb(86, 90, 93, .8)",
+  },
+}));
+
 const Editor = () => {
+  const classes = useStyles();
   const [value, setValue] = React.useState(2);
 
   const handleChange = (event, newValue) => {
@@ -140,6 +165,7 @@ const Editor = () => {
             style={{
               height: 55.5,
               borderBottom: "0.2px solid rgb(86, 90, 93, .5)",
+              marginLeft: 20,
             }}
           >
             <Tab
@@ -152,11 +178,98 @@ const Editor = () => {
               style={{
                 color: "#9099A2",
                 textTransform: "capitalize",
-
               }}
             />
           </Tabs>
         </Paper>
+        <List
+          component="nav"
+          className={classes.root}
+          aria-label="mailbox folders"
+        >
+          <ListItem button style={{ color: "#AD9966" }}>
+            <FaRegQuestionCircle style={{ marginRight: 10 }} />{" "}
+            <ListItemText primary="No compilation issue" />
+          </ListItem>
+          <ListItem button style={{ color: "#AD9966" }}>
+            <div
+              className="rightSidebar2"
+              style={{ backgroundColor: "#2E3A46", paddingLeft: 0 }}
+            >
+              <div className="bage1" style={{ backgroundColor: "#528D99" }}>
+                table
+              </div>
+              <div style={{ color: "#B5BFC7" }}>dataset_2_with_ref</div>
+              <div
+                style={{
+                  color: "#B5BFC7",
+                  fontSize: 20,
+                  marginTop: -7,
+                  marginLeft: 65,
+                }}
+              >
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...
+              </div>
+            </div>
+          </ListItem>
+          <Divider classes={{ root: classes.divider }} />
+          <ListItem button divider>
+            <ListItemText primary="Dependencies" style={{ color: "#BDC6CF" }} />
+            <TbNumber3
+              size={20}
+              style={{ color: "white", backgroundColor: "#3D4854" }}
+            />
+            <MdExpandMore
+              size={20}
+              style={{ color: "#626E7A", marginLeft: 10 }}
+            />
+          </ListItem>
+          <Divider classes={{ root: classes.divider }} />
+          <ListItem button>
+            <ListItemText primary="Compiled" style={{ color: "#BDC6CF" }} />
+            <MdExpandMore
+              size={20}
+              style={{ color: "#626E7A", marginLeft: 10 }}
+            />
+          </ListItem>
+          <Divider classes={{ root: classes.divider }} />
+          <ListItem button>
+            <ListItemText primary="Query" style={{ color: "#BDC6CF" }} />
+            <MdExpandMore
+              size={20}
+              style={{ color: "#626E7A", marginLeft: 10 }}
+            />
+          </ListItem>
+          <div style={{ marginLeft: 20, marginTop:20 }}>
+            <button
+              style={{
+                padding: 10,
+                backgroundColor: "#505D6B",
+                border: "none",
+                borderRadius: 10,
+                paddingRight: 20,
+                paddingLeft: 20,
+                color: "#E4E9EA",
+              }}
+            >
+              Execute query
+            </button>
+            <button
+              style={{
+                padding: 10,
+                paddingRight: 20,
+                paddingLeft: 20,
+                marginLeft: 20,
+                backgroundColor: "#3F51B5",
+                border: "none",
+                borderRadius: 10,
+                color: "#E4E9EA",
+              }}
+            >
+              Run this code
+            </button>
+          </div>
+        </List>
       </div>
     </div>
   );
