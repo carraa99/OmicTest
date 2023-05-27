@@ -21,7 +21,16 @@ const IconSideBar = () => {
     <div className="iconSidebar">
       <div className="icons">
         {/* <ImSpinner8 style={{ color: "white", marginBottom: 20 }} size={25} /> */}
-        <img src={osr} style={{ color: "white", marginBottom: 20, borderRadius:'50%', height:30, widht:40 }} />
+        <img
+          src={osr}
+          style={{
+            color: "white",
+            marginBottom: 20,
+            borderRadius: "50%",
+            height: 30,
+            widht: 40,
+          }}
+        />
         <PlayArrowIcon
           style={{
             color: "white",
@@ -31,7 +40,9 @@ const IconSideBar = () => {
           }}
           size={30}
         />
-        <hr style={{ color: "#484545", width: 22 }} />
+        
+          <hr/>
+        
         <AiFillAlipayCircle
           style={{ color: "#6C767E", marginBottom: 22 }}
           size={25}
