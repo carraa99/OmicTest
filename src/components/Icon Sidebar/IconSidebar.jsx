@@ -40,34 +40,50 @@ const IconSideBar = () => {
           }}
           size={30}
         />
-        
-          <hr/>
-        
+
+        <hr />
+
         <AiFillAlipayCircle
-          style={{ color: "#6C767E", marginBottom: 22 }}
+          style={{ marginBottom: 22 }}
           size={25}
+          className="omicPrimaryIconColor"
         />
-        <FiSearch style={{ color: "#6C767E", marginBottom: 22 }} size={25} />
+        <FiSearch
+          style={{ marginBottom: 22 }}
+          size={25}
+          className="omicPrimaryIconColor"
+        />
         <hr style={{ color: "#484545", width: 22 }} />
 
         <TbFidgetSpinner
           style={{ color: "#fff", marginBottom: 22 }}
           size={25}
         />
-        <ImClock style={{ color: "#6C767E", marginBottom: 22 }} size={25} />
-        <CgNotes style={{ color: "#6C767E", marginBottom: 22 }} size={25} />
-        <BsFillDatabaseFill
-          style={{ color: "#6C767E", marginBottom: 22 }}
+        <ImClock
+          style={{ marginBottom: 22 }}
           size={25}
+          className="omicPrimaryIconColor"
+        />
+        <CgNotes
+          style={{ marginBottom: 22 }}
+          size={25}
+          className="omicPrimaryIconColor"
+        />
+        <BsFillDatabaseFill
+          style={{ marginBottom: 22 }}
+          size={25}
+          className="omicPrimaryIconColor"
         />
         <hr style={{ color: "#484545", width: 20 }} />
         <BiChevronRight
-          style={{ color: "#6C767E", marginBottom: 22, marginTop: 20 }}
+          style={{ marginBottom: 22, marginTop: 20 }}
           size={35}
+          className="omicPrimaryIconColor"
         />
         <CiSliderHorizontal
-          style={{ color: "#6C767E", marginBottom: 22, marginTop: 100 }}
+          style={{ marginBottom: 22, marginTop: 100 }}
           size={35}
+          className="omicPrimaryIconColor"
         />
         <Avatar src={girl} style={{ marginBottom: 36 }}></Avatar>
       </div>

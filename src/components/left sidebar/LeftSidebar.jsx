@@ -115,36 +115,36 @@ const LeftSidebar = () => {
       </h2>
       <div className="sidebarWrapper">
         <div className="bage1">config</div>
-        <div style={{ color: "#B5BFC7" }}>dataform</div>
+        <div className="omicPrimaryTextColor">dataform</div>
       </div>
       <div className="sidebarWrapper">
         <div className="bage1">config</div>
-        <div style={{ color: "#B5BFC7" }}>package-lock</div>
+        <div className="omicPrimaryTextColor">package-lock</div>
       </div>
       <div className="sidebarWrapper">
         <div className="bage1">config</div>
-        <div style={{ color: "#B5BFC7" }}>package</div>
+        <div className="omicPrimaryTextColor">package</div>
       </div>
 
       <div className="lists">
         <div>
           {" "}
-          <ExpandMoreIcon style={{ color: "#727E8A" }} />
+          <ExpandMoreIcon className="omicPrimaryIconColor" />
         </div>
         <div>
-          <AiFillFolder style={{ color: "#727E8A" }} size={25} />
+          <AiFillFolder className="omicPrimaryIconColor" size={25} />
         </div>
-        <div style={{ color: "#B5BFC7" }}> models</div>
+        <div className="omicPrimaryTextColor"> models</div>
       </div>
       <div className="list2">
         <div>
           {" "}
-          <ExpandMoreIcon style={{ color: "#727E8A" }} />
+          <ExpandMoreIcon className="omicPrimaryIconColor" />
         </div>
         <div>
-          <AiFillFolder style={{ color: "#727E8A" }} size={25} />
+          <AiFillFolder className="omicPrimaryIconColor" size={25} />
         </div>
-        <div style={{ color: "#B5BFC7" }}> 1_simple_examples</div>
+        <div className="omicPrimaryTextColor"> 1_simple_examples</div>
       </div>
       <div
         className="sidebarWrapper3"
@@ -153,7 +153,7 @@ const LeftSidebar = () => {
         <div className="bage1 bgClass" style={{ backgroundColor: "#8CA261" }}>
           SQL
         </div>
-        <div style={{ color: "#B5BFC7" }}>dataset_1</div>
+        <div className="omicPrimaryTextColor">dataset_1</div>
         <div style={{ color: "#B5BFC7", fontSize: 20, marginTop: -7 }}>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...
         </div>
@@ -162,23 +162,23 @@ const LeftSidebar = () => {
         <div className="bage1" style={{ backgroundColor: "#8CA261" }}>
           SQL
         </div>
-        <div style={{ color: "#B5BFC7" }}>dataset_2_with_ref </div>
+        <div className="omicPrimaryTextColor">dataset_2_with_ref </div>
       </div>
       <div className="list2">
         <div>
           {" "}
-          <ExpandMoreIcon style={{ color: "#727E8A" }} />
+          <ExpandMoreIcon className="omicPrimaryIconColor" />
         </div>
         <div>
-          <AiFillFolder style={{ color: "#727E8A" }} size={25} />
+          <AiFillFolder className="omicPrimaryIconColor" size={25} />
         </div>
-        <div style={{ color: "#B5BFC7" }}> 2_advanced_examples</div>
+        <div className="omicPrimaryTextColor"> 2_advanced_examples</div>
       </div>
       <div className="sidebarWrapper2">
         <div className="bage1" style={{ backgroundColor: "#8CA261" }}>
           SQL
         </div>
-        <div style={{ color: "#B5BFC7" }}>dataset_3 increa...</div>
+        <div className="omicPrimaryTextColor">dataset_3 increa...</div>
       </div>
       <div className="sidebarWrapper2">
         <div
@@ -187,23 +187,23 @@ const LeftSidebar = () => {
         >
           JS
         </div>
-        <div style={{ color: "#B5BFC7" }}>dataset_4_increase...</div>
+        <div className="omicPrimaryTextColor">dataset_4_increase...</div>
       </div>
       <div className="list2">
         <div>
           {" "}
-          <ExpandMoreIcon style={{ color: "#727E8A" }} />
+          <ExpandMoreIcon className="omicPrimaryIconColor" />
         </div>
         <div>
-          <AiFillFolder style={{ color: "#727E8A" }} size={25} />
+          <AiFillFolder className="omicPrimaryIconColor" size={25} />
         </div>
-        <div style={{ color: "#B5BFC7" }}> 3_operations_and_as</div>
+        <div className="omicPrimaryTextColor"> 3_operations_and_as</div>
       </div>
       <div className="sidebarWrapper2">
         <div className="bage1" style={{ backgroundColor: "#518E9B" }}>
           ops
         </div>
-        <div style={{ color: "#B5BFC7" }}>grant_assess</div>
+        <div className="omicPrimaryTextColor">grant_assess</div>
       </div>
       <div className="sidebarWrapper2">
         <div
@@ -212,7 +212,7 @@ const LeftSidebar = () => {
         >
           assert
         </div>
-        <div style={{ color: "#B5BFC7" }}>simple_assertion...</div>
+        <div className="omicPrimaryTextColor">simple_assertion...</div>
       </div>
 
       {/* IT STARTS HERE */}
@@ -222,12 +222,12 @@ const LeftSidebar = () => {
       <div className="lists">
         <div>
           {" "}
-          <ExpandMoreIcon style={{ color: "#727E8A" }} />
+          <ExpandMoreIcon className="omicPrimaryIconColor" />
         </div>
         <div>
-          <AiFillFolder style={{ color: "#727E8A" }} size={25} />
+          <AiFillFolder className="omicPrimaryIconColor" size={25} />
         </div>
-        <div style={{ color: "#B5BFC7", marginBottom:95.3 }}> models_2</div>
+        <div style={{ color: "#B5BFC7", marginBottom: 95.3 }}> models_2</div>
       </div>
     </div>
   );
