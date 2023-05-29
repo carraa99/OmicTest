@@ -172,12 +172,12 @@ const Table = () => {
                     style={{ color: "#8D979F" }}
                   />
                   <StyledTreeItem
-                    nodeId="5"
+                    nodeId="6"
                     label="dataset_4_incremental_snapshot"
                     style={{ color: "#8D979F" }}
                   />
                   <StyledTreeItem
-                    nodeId="5"
+                    nodeId="7"
                     label="reporting_gb"
                     style={{ color: "#8D979F" }}
                   />
@@ -187,7 +187,7 @@ const Table = () => {
                   label="datafrom_set2"
                   style={{ color: "#8D979F" }}
                 >
-                  <StyledTreeItem nodeId="2" label="dataset_1" />
+                  <StyledTreeItem nodeId="10" label="dataset_1" />
                 </StyledTreeItem>
               </TreeView>
             </div>
