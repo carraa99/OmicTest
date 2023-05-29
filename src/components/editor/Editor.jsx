@@ -59,7 +59,7 @@ const Editor = () => {
         <div className="editorBox">
           <div className="numbers">3</div>
           <div>
-            -- js <span style={{ color: "#80B579" }}>type</span>('table')
+            -- js <span className="omicEditorColor1">type</span>('table')
           </div>
         </div>
         <div className="editorBox">
@@ -69,80 +69,84 @@ const Editor = () => {
         <div className="editorBox">
           <div className="numbers">5</div>
           <div>
-            <span style={{ color: "#7B6DB2" }}>SELECT</span> country
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            <span style={{ color: "#7B6DB2" }}>as</span> country
+            <span className="omicEditorColor2">SELECT</span> country
+            <span style={{ marginLeft: 86 }} className="omicEditorColor2">
+              as
+            </span>{" "}
+            country
           </div>
         </div>
         <div className="editorBox">
           <div className="numbers">6</div>
-          <div>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;device_type
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            <span style={{ color: "#7B6DB2" }}>as</span> device_type
+          <div style={{ marginLeft: 55 }}>
+            device_type
+            <span style={{ marginLeft: 57 }} className="omicEditorColor2">
+              as
+            </span>{" "}
+            device_type
           </div>
         </div>
         <div className="editorBox">
           <div className="numbers">7</div>
-          <div>
-            {" "}
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <div style={{ marginLeft: 55 }}>
             <span style={{ color: "#80B579" }}>
-              <span style={{ color: "#80B579" }}>sum</span>
+              <span className="omicEditorColor3">sum</span>
             </span>
-            (revenue) &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <span style={{ color: "#7B6DB2" }}>as</span>{" "}
+            (revenue)
+            <span style={{ marginLeft: 43 }} className="omicEditorColor2">
+              as
+            </span>{" "}
             <span style={{ color: "#80B579" }}>
-              <span style={{ color: "#80B579" }}>sum</span>
+              <span className="omicEditorColor3">sum</span>
             </span>
             (revenue)
           </div>
         </div>
         <div className="editorBox">
           <div className="numbers">8</div>
-          <div>
-            {" "}
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <div style={{ marginLeft: 55 }}>
             <span style={{ color: "#80B579" }}>
-              <span style={{ color: "#80B579" }}>sum</span>
+              <span className="omicEditorColor3">sum</span>
             </span>
-            (sessions) &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <span style={{ color: "#7B6DB2" }}>as</span> sessions
+            (sessions)
+            <span style={{ marginLeft: 41 }} className="omicEditorColor2">
+              as
+            </span>{" "}
+            sessions
           </div>
         </div>
         <div className="editorBox">
           <div className="numbers">9</div>
-          <div>
-            {" "}
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <span style={{ color: "#80B579" }}>sum</span>(pageviews)
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <span style={{ color: "#7B6DB2" }}>as</span> pageviews
+          <div style={{ marginLeft: 55 }}>
+            <span className="omicEditorColor3">sum</span>(pageviews)
+            <span style={{ marginLeft: 26 }} className="omicEditorColor2">
+              as
+            </span>{" "}
+            pageviews
           </div>
         </div>
         <div className="editorBox">
           <div className="numbers">10</div>
           <div>
-            <span style={{ color: "#7B6DB2" }}>FROM</span> country &nbsp;
+            <span className="omicEditorColor2">FROM</span> country &nbsp;
             <span style={{ color: "#7B6DB2" }}>
               {" "}
-              <span style={{ color: "#83A2E3" }}>my_table</span>
+              <span className="omicEditorColor5">my_table</span>
             </span>
           </div>
         </div>
         <div className="editorBox">
           <div className="numbers">11</div>
           <div>
-            <span style={{ color: "#7B6DB2" }}>WHERE</span> country &nbsp;=
-            <span style={{ color: "#C8A75A" }}> FRANCE</span>
+            <span className="omicEditorColor2">WHERE</span> country &nbsp;=
+            <span className="omicEditorColor4"> FRANCE</span>
           </div>
         </div>
         <div className="editorBox">
           <div className="numbers">12</div>
           <div>
-            <span style={{ color: "#7B6DB2" }}>GROUP</span> BY &nbsp;=
-            <span style={{ color: "#955574" }}> 1, 2</span>
+            <span className="omicEditorColor2">GROUP</span> BY &nbsp;=
+            <span className="omicEditorColor6"> 1, 2</span>
           </div>
         </div>
       </div>
@@ -214,19 +218,23 @@ const Editor = () => {
           </ListItem>
           <Divider classes={{ root: classes.divider }} />
           <ListItem button divider>
-            <ListItemText primary="Dependencies" style={{ color: "#BDC6CF" }} />
+            <ListItemText
+              primary="Dependencies"
+              className="omicPrimaryTextColor"
+            />
             <TbNumber3
               size={20}
               style={{ color: "white", backgroundColor: "#3D4854" }}
             />
             <MdExpandMore
               size={20}
-              style={{ color: "#626E7A", marginLeft: 10 }}
+              style={{ marginLeft: 10 }}
+              className="omicPrimaryIconColor"
             />
           </ListItem>
           <Divider classes={{ root: classes.divider }} />
           <ListItem button>
-            <ListItemText primary="Compiled" style={{ color: "#BDC6CF" }} />
+            <ListItemText primary="Compiled" className="omicPrimaryTextColor" />
             <MdExpandMore
               size={20}
               style={{ color: "#626E7A", marginLeft: 10 }}
@@ -234,13 +242,13 @@ const Editor = () => {
           </ListItem>
           <Divider classes={{ root: classes.divider }} />
           <ListItem button>
-            <ListItemText primary="Query" style={{ color: "#BDC6CF" }} />
+            <ListItemText primary="Query" className="omicPrimaryTextColor" />
             <MdExpandMore
               size={20}
               style={{ color: "#626E7A", marginLeft: 10 }}
             />
           </ListItem>
-          <div style={{ marginLeft: 20, marginTop:20 }}>
+          <div style={{ marginLeft: 20, marginTop: 20 }}>
             <button
               style={{
                 padding: 10,

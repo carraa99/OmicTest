@@ -153,14 +153,14 @@ const Table = () => {
                 <StyledTreeItem
                   nodeId=""
                   label="datafrom_demo"
-                  style={{ color: "#8D979F" }}
+                  className="omicTablePrimaryTextColor"
                 >
                   <StyledTreeItem
                     nodeId="2"
                     label="dataset_1"
-                    style={{ color: "#8D979F" }}
+                    className="omicTablePrimaryTextColor"
                   />
-                  
+
                   <StyledTreeItem
                     nodeId="4"
                     label="dataset_5_from_script_builder"
@@ -169,23 +169,23 @@ const Table = () => {
                   <StyledTreeItem
                     nodeId="5"
                     label="dataset_3_incremental_date"
-                    style={{ color: "#8D979F" }}
+                    className="omicTablePrimaryTextColor"
                   />
                   <StyledTreeItem
                     nodeId="6"
                     label="dataset_4_incremental_snapshot"
-                    style={{ color: "#8D979F" }}
+                    className="omicTablePrimaryTextColor"
                   />
                   <StyledTreeItem
                     nodeId="7"
                     label="reporting_gb"
-                    style={{ color: "#8D979F" }}
+                    className="omicTablePrimaryTextColor"
                   />
                 </StyledTreeItem>
                 <StyledTreeItem
                   nodeId="1"
                   label="datafrom_set2"
-                  style={{ color: "#8D979F" }}
+                  className="omicTablePrimaryTextColor"
                 >
                   <StyledTreeItem nodeId="10" label="dataset_1" />
                 </StyledTreeItem>
@@ -197,7 +197,7 @@ const Table = () => {
               <div className="bage1" style={{ backgroundColor: "#528D99" }}>
                 view
               </div>
-              <div style={{ color: "#B5BFC7" }}>dataset_2_with_ref</div>
+              <div className="omicPrimaryTextColor">datfrom_demo.dataset_1</div>
               <div style={{ color: "#57636F", marginLeft: 530 }}>
                 <IoMdClose size={25} />
               </div>
@@ -214,23 +214,23 @@ const Table = () => {
                   <td>Field</td>
                   <td>Type</td>
                 </tr>
-                <tr style={{ color: "#8D979F" }}>
+                <tr className="omicTablePrimaryTextColor">
                   <td>date</td>
                   <td>date</td>
                 </tr>
-                <tr style={{ color: "#8D979F" }}>
+                <tr className="omicTablePrimaryTextColor">
                   <td>device_type</td>
                   <td>character varying</td>
                 </tr>
-                <tr style={{ color: "#8D979F" }}>
+                <tr className="omicTablePrimaryTextColor">
                   <td>country</td>
                   <td>character varying</td>
                 </tr>
-                <tr style={{ color: "#8D979F" }}>
+                <tr className="omicTablePrimaryTextColor">
                   <td>sessions</td>
                   <td>integer</td>
                 </tr>
-                <tr style={{ color: "#8D979F" }}>
+                <tr className="omicTablePrimaryTextColor">
                   <td>revenue</td>
                   <td>integer</td>
                 </tr>

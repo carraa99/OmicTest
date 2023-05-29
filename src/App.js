@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 // import './App.css';
+import './assets/global.css'
 import NavigationBar from './components/navigation/NavigationBar';
 import IconSidebar from './components/Icon Sidebar/IconSidebar';
 import LeftSidebar from './components/left sidebar/LeftSidebar';
