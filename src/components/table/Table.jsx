@@ -184,7 +184,7 @@ const Table = () => {
                 </StyledTreeItem>
                 <StyledTreeItem
                   nodeId="1"
-                  label="datafrom_demo"
+                  label="datafrom_set2"
                   style={{ color: "#8D979F" }}
                 >
                   <StyledTreeItem nodeId="2" label="dataset_1" />

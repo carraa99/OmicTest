@@ -1,5 +1,5 @@
 .iconSidebar {
-    height: 108vh;
+    height: auto !important;
     width:80px;
     background-color: rgb(32,41,52);
     position: absolute;

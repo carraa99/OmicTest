@@ -7,7 +7,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #8496A5;
 }
-
+ @-moz-document url-prefix() { /* Disable scrollbar Firefox */
+            html{
+              scrollbar-width: none;
+            }
+          }
+::-webkit-scrollbar {
+  width:0px;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

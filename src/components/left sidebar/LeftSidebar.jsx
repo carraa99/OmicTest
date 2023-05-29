@@ -227,7 +227,7 @@ const LeftSidebar = () => {
         <div>
           <AiFillFolder style={{ color: "#727E8A" }} size={25} />
         </div>
-        <div style={{ color: "#B5BFC7" }}> models_2</div>
+        <div style={{ color: "#B5BFC7", marginBottom:95.3 }}> models_2</div>
       </div>
     </div>
   );

@@ -5,15 +5,17 @@ import IconSidebar from './components/Icon Sidebar/IconSidebar';
 import LeftSidebar from './components/left sidebar/LeftSidebar';
 import Editor from './components/editor/Editor';
 import Table from './components/table/Table';
+import OmicLayout from './components/omic-layout/OmicLayout';
 
 function App() {
   return (
     <div className='App'>
-      <NavigationBar />
+      {/* <NavigationBar />
       <IconSidebar />
       <LeftSidebar />
       <Editor />
-      <Table />
+      <Table /> */}
+      <OmicLayout />
     </div>
   );
 }

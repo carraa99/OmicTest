@@ -2,8 +2,9 @@
     position: relative;
     top:400px;
     left:380px;
-    width: 1137.5px;
-    height: 300px;
+    width: 1156px;
+    /* height: 300px; */
+    height: auto;
     background-color: rgb(36,48,60);
     border-bottom-right-radius: 30px;
 

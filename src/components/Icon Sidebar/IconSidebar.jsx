@@ -69,7 +69,7 @@ const IconSideBar = () => {
           style={{ color: "#6C767E", marginBottom: 22, marginTop: 100 }}
           size={35}
         />
-        <Avatar src={girl} style={{ marginBottom: 15 }}></Avatar>
+        <Avatar src={girl} style={{ marginBottom: 36 }}></Avatar>
       </div>
     </div>
   );
